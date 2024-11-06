@@ -10,7 +10,7 @@ function updatePageStatus() {
         content.style.opacity = 0.5;
     } else {
         document.title = "Active Page";
-        favicon.href = "https://freight.cargo.site/t/original/i/3d32e3b0283084ab1282dff71df44cf92d79ffe3292b371328198ff2e55e3166/unnamed.png"; // Active icon URL
+        favicon.href = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2LYMGvjy1nx7VfyfVFA1PlJzEAs7vNz19PQ&s"; // Active icon URL
         content.style.opacity = 1;
     }
 }
