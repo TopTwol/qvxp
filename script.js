@@ -1,19 +1,12 @@
-// Select the favicon link element
-const favicon = document.getElementById("favicon");
-const content = document.getElementById("content");
-
-// Function to change favicon and title
+// Adjust paths to include "qvxp/"
 function updatePageStatus() {
     if (document.hidden) {
         document.title = "Come back soon!";
-        favicon.href = "Google_Drive_icon.png"; // Set favicon to inactive icon
+        favicon.href = "qvxp/Google_Drive_icon.png"; // Updated inactive icon path
         content.style.opacity = 0.5;
     } else {
         document.title = "Active Page";
-        favicon.href = "index-favicon.png"; // Set favicon to active icon
+        favicon.href = "qvxp/index-favicon.png"; // Updated active icon path
         content.style.opacity = 1;
     }
 }
-
-// Listen for visibility changes
-document.addEventListener("visibilitychange", updatePageStatus);
